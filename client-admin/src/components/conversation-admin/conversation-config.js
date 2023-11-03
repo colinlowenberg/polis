@@ -199,6 +199,10 @@ class ConversationConfig extends React.Component {
           Participants cannot vote without first connecting either Facebook or
           Twitter
         </CheckboxField>
+
+        <CheckboxField field="wallet_needed_to_vote" label="Require Wallet to Vote">
+          Participants cannot vote without first connecting MetaMask or another web3 wallet.
+        </CheckboxField>
       </Box>
     )
   }
